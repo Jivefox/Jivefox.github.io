@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Sinatra Project: Better Understanding AR Associations"
-date:       2020-06-13 21:12:42 +0000
+date:       2020-06-13 17:12:44 -0400
 permalink:  my_sinatra_project_better_understanding_ar_associations
 ---
 
@@ -13,7 +13,7 @@ I had a much better go of it during this second project.  I felt more comfortabl
 Up until this point the examples we have used associated three classes at most.  That sort of triangular association made sense to me.  One or two belongs_to macros and a has_many or even a has_many :through macro, but I had never had to associate four or five classes.  It took a couple of crudly drawn representations, a trial with Gliffy to help illustrate and visualize those associations and more than one stereotypical head scratches.  But what was ultimately very helpful was Tux. 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S2B56DhQXLw" frameborder="0"            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen; margin-left: auto; margin-right: auto></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S2B56DhQXLw" frameborder="0"            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 When I finally thought I had the associations figured out, the ability to play around in a console that was linked to my database was very helpful in visualizing how the associations were working and gave me that satisfying Yeatsian "[click](https://sedulia.blogs.com/sedulias_quotations/2006/01/poetry_comes_ri.html)." In the end they wound up looking like this:
 
